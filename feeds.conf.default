@@ -11,4 +11,4 @@ src-git helloworld https://github.com/fw876/helloworld.git
 #src-git oldpackages http://git.openwrt.org/packages.git
 #src-link custom /usr/src/openwrt/custom-feed
 src-git main https://github.com/linkease/istore luci.git
-src-git main https://github.com/Lienol/openwrt-package/luci.git
+src-git luci https://github.com/Lienol/openwrt-package/luci.git
