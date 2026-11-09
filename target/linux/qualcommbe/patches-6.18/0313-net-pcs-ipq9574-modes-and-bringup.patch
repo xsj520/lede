@@ -114,7 +114,7 @@ Signed-off-by: Mantas Pucka <mantas@8devices.com>
 Signed-off-by: Luo Jie <quic_luoj@quicinc.com>
 Signed-off-by: Kenneth Kasilag <kenneth@kasilag.me>
 Signed-off-by: Til Kaiser <mail@tk154.de>
-Signed-off-by: coolsnowwolf <coolsnowwolf@gmail.com>
+Signed-off-by: ViKing <viking.yfy@qq.com>
 
 --- /dev/null
 +++ b/Documentation/devicetree/bindings/net/pcs/qcom,ipq9574-pcs.yaml
@@ -318,7 +318,7 @@ Signed-off-by: coolsnowwolf <coolsnowwolf@gmail.com>
 +    };
 --- a/drivers/net/pcs/Kconfig
 +++ b/drivers/net/pcs/Kconfig
-@@ -45,6 +45,15 @@ config PCS_MTK_USXGMII
+@@ -46,6 +46,15 @@
  	  1000Base-X, 2500Base-X and Cisco SGMII are supported on the same
  	  differential pairs via an embedded LynxI PCS.
  
@@ -336,7 +336,7 @@ Signed-off-by: coolsnowwolf <coolsnowwolf@gmail.com>
  	depends on OF
 --- a/drivers/net/pcs/Makefile
 +++ b/drivers/net/pcs/Makefile
-@@ -10,3 +10,4 @@ obj-$(CONFIG_PCS_LYNX)		+= pcs-lynx.o
+@@ -10,3 +10,4 @@
  obj-$(CONFIG_PCS_MTK_LYNXI)	+= pcs-mtk-lynxi.o
  obj-$(CONFIG_PCS_MTK_USXGMII)	+= pcs-mtk-usxgmii.o
  obj-$(CONFIG_PCS_RZN1_MIIC)	+= pcs-rzn1-miic.o
