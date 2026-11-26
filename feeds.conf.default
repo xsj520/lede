@@ -11,3 +11,6 @@ src-git video https://github.com/coolsnowwolf/video
 #src-git targets https://github.com/openwrt/targets.git
 #src-git oldpackages http://git.openwrt.org/packages.git
 #src-link custom /usr/src/openwrt/custom-feed
+rc-git main https://github.com/linkease/istore luci.git
+src-git nas https://github.com/linkease/nas-packages.git;master
+src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main
